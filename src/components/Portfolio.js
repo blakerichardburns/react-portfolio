@@ -3,46 +3,46 @@ import Project from "./Project"
 export default function Portfolio() {
     const projects = [
         {
-            name: 'Project Name',
-            description: 'b;ljasl;d;ljk',
-            deployedLink: 'https......',
-            gitHub: 'https....',
-            image: 'imagefilename.png'
+            name: 'Tech Blog',
+            description: 'Blah blah blah',
+            deployedLink: 'https://bburns-tech-blog.herokuapp.com/',
+            repository: 'https://github.com/blakerichardburns/tech-blog',
+            image: 'tech-blog-screenshot.jpeg'
         },
         {
-            name: 'Project Name',
-            description: 'b;ljasl;d;ljk',
-            deployedLink: 'https......',
-            gitHub: 'https....',
-            image: 'imagefilename.png'
+            name: 'Weather Dashboard',
+            description: 'Blah blah blah',
+            deployedLink: 'https://blakerichardburns.github.io/weather-dashboard/',
+            repository: 'https://github.com/blakerichardburns/weather-dashboard',
+            image: 'weather-dashboard-screenshot.jpeg'
+        },
+              {
+            name: 'Subscription Tracks',
+            description: 'Blah blah blah',
+            deployedLink: 'https://subscription-tracks.herokuapp.com/',
+            repository: 'https://github.com/TerryBoufis/Subscription-Tracks',
+            image: 'subscription-tracks-screenshot.jpeg'
+        },
+                {
+            name: 'Marvel Reddit Finder',
+            description: 'Blah blah blah',
+            deployedLink: 'https://hayek23.github.io/Marvel-Reddit-Finder/',
+            repository: 'https://github.com/Hayek23/Marvel-Reddit-Finder',
+            image: 'marvel-reddit-finder-screenshot.jpeg'
         },
         {
-            name: 'Project Name',
-            description: 'b;ljasl;d;ljk',
-            deployedLink: 'https......',
-            gitHub: 'https....',
-            image: 'imagefilename.png'
+            name: 'Note Taker',
+            description: 'Blah blah blah',
+            deployedLink: 'https://note-taker-code-refactor.herokuapp.com/',
+            repository: 'https://github.com/blakerichardburns/note-taker',
+            image: 'note-taker-screenshot.jpeg'
         },
         {
-            name: 'Project Name',
-            description: 'b;ljasl;d;ljk',
-            deployedLink: 'https......',
-            gitHub: 'https....',
-            image: 'imagefilename.png'
-        },
-        {
-            name: 'Project Name',
-            description: 'b;ljasl;d;ljk',
-            deployedLink: 'https......',
-            gitHub: 'https....',
-            image: 'imagefilename.png'
-        },
-        {
-            name: 'Project Name',
-            description: 'b;ljasl;d;ljk',
-            deployedLink: 'https......',
-            gitHub: 'https....',
-            image: 'imagefilename.png'
+            name: 'Workday Scheduler',
+            description: 'Blah blah blah',
+            deployedLink: 'https://blakerichardburns.github.io/workday-scheduler/',
+            repository: 'https://github.com/blakerichardburns/workday-scheduler',
+            image: 'workday-scheduler-screenshot.jpeg'
         }
     ]
     return (

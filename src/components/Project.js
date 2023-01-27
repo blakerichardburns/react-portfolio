@@ -9,7 +9,7 @@ function Project({project}) {
       />
       <h3>Description: {project.description}</h3>
       <h3>Deployed Link: {project.deployedLink}</h3>
-      <h3>Repository: {project.gitHub}</h3>
+      <h3>Repository: {project.repository}</h3>
     </div>
     )
 }
