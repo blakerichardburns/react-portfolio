@@ -1,24 +1,24 @@
-import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import React, { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import AboutMe from "./components/AboutMe";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Portfolio from "./components/Portfolio";
-import Resume from "./components/Resume";
+import AboutMe from './components/AboutMe';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("About");
+  const [currentPage, setCurrentPage] = useState('About');
   const renderPage = () => {
     switch (currentPage) {
-      case "About":
+      case 'About':
         return <AboutMe />;
-      case "Portfolio":
+      case 'Portfolio':
         return <Portfolio />;
-      case "Contact":
+      case 'Contact':
         return <Contact />;
-      case "Resume":
+      case 'Resume':
         return <Resume />;
       default:
         return <AboutMe />;
@@ -28,10 +28,11 @@ function App() {
   const styles = {
     App: {
       display: 'flex',
-      flexDirection: "column",
-      height: "100vh",
-    }
-  }
+      flexDirection: 'column',
+      height: '100vh',
+      background: '#fcf7f8',
+    },
+  };
 
   const handlePageChange = (page) => setCurrentPage(page);
 

@@ -1,17 +1,11 @@
-import React from "react";
+import React from 'react';
 
 const styles = {
   navigation: {
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "flex-end",
-    margin: "1rem",
-    listStyle: "none",
+
   },
   navItem: {
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "space-between",
+
   },
 };
 
@@ -21,8 +15,8 @@ function Navigation({ currentPage, handlePageChange }) {
       <li className="nav-item" style={styles.navItem}>
         <a
           href="#About"
-          onClick={() => handlePageChange("About")}
-          className={currentPage === "About" ? "nav-link active" : "nav-link"}
+          onClick={() => handlePageChange('About')}
+          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
           About Me
         </a>
@@ -30,9 +24,9 @@ function Navigation({ currentPage, handlePageChange }) {
       <li className="nav-item" style={styles.navItem}>
         <a
           href="#Portfolio"
-          onClick={() => handlePageChange("Portfolio")}
+          onClick={() => handlePageChange('Portfolio')}
           className={
-            currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+            currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'
           }
         >
           Portfolio
@@ -40,20 +34,20 @@ function Navigation({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item" style={styles.navItem}>
         <a
-          href="#Resume"
-          onClick={() => handlePageChange("Resume")}
-          className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
+          href="#Contact"
+          onClick={() => handlePageChange('Contact')}
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
-          Resume
+          Contact
         </a>
       </li>
       <li className="nav-item" style={styles.navItem}>
         <a
-          href="#Contact"
-          onClick={() => handlePageChange("Contact")}
-          className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
+          href="#Resume"
+          onClick={() => handlePageChange('Resume')}
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
-          Contact
+          Resume
         </a>
       </li>
     </ul>
