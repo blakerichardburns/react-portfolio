@@ -3,6 +3,7 @@ import Project from './Project';
 const styles = {
   portfolio: {
     display: 'flex',
+    padding: '2.5rem',
     flexGrow: '1',
   },
 };
@@ -54,7 +55,6 @@ export default function Portfolio() {
   ];
   return (
     <div style={styles.portfolio}>
-      <h2>Portfolio</h2>
       <div className="d-flex">
         {projects.map((project) => (
           <Project project={project} />
