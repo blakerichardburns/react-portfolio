@@ -2,7 +2,8 @@ import React from 'react';
 
 const styles = {
   navigation: {
-
+    paddingRight: '2.5rem',
+    fontSize: '2.5rem',
   },
   navItem: {
 

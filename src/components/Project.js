@@ -1,6 +1,10 @@
 const styles = {
   project: {
     display: 'flex',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    maxWidth: '100%',
+
   },
 };
 
@@ -11,7 +15,6 @@ function Project({ project }) {
         alt={project.name}
         className="img-fluid"
         src={require(`../assets/${project.image}`)}
-        style={{ margin: '0 auto' }}
       />
       <h2>Project: {project.name}</h2>
       <h3>Description: {project.description}</h3>

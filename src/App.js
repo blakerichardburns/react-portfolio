@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './components/styles/style.css';
 
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
@@ -31,6 +32,7 @@ function App() {
       flexDirection: 'column',
       height: '100vh',
       background: '#fcf7f8',
+      color: '#5b616a',
     },
   };
 

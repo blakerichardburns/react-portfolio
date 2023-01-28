@@ -14,25 +14,25 @@ const styles = {
     display: 'flex',
     justifyContent: 'flex-start',
     marginTop: '1.5rem',
+    marginBottom: '1rem',
     marginLeft: '2.5rem',
+    padding: '0.5rem',
     fontSize: '3rem',
 
   },
   lineSpan: {
+    margin: '',
     color: '#5b616a',
   },
   portfolioSpan: {
     color: '#ced3dc',
   },
-  nav: {
-   
-  }
 };
 
 export default function Header({ currentPage, handlePageChange }) {
   return (
     <div style={styles.header}>
-      <h1 style={styles.h1}>Blake Burns <span style={styles.lineSpan}> | </span> <span style={styles.portfolioSpan}> PORTFOLIO</span></h1>
+      <h1 style={styles.h1}>PORTFOLIO <span style={styles.lineSpan}> | </span> <span style={styles.portfolioSpan}> Blake Burns</span></h1>
         <Navigation
           currentPage={currentPage}
           handlePageChange={handlePageChange}
