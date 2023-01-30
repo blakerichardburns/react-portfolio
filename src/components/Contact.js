@@ -1,14 +1,7 @@
-const styles = {
-  contact: {
-    display: 'flex',
-    flexGrow: '1',
-  },
-};
-
 export default function Contact() {
   return (
 
-  <div style={styles.contact}>
+  <div>
     <h1>Contact Me</h1>
     <form>
       <div>

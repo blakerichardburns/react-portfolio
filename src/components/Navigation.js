@@ -1,19 +1,9 @@
 import React from 'react';
 
-const styles = {
-  navigation: {
-    paddingRight: '2.5rem',
-    fontSize: '2.5rem',
-  },
-  navItem: {
-
-  },
-};
-
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs" style={styles.navigation}>
-      <li className="nav-item" style={styles.navItem}>
+    <ul className="nav nav-tabs">
+      <li className="nav-item">
         <a
           href="#About"
           onClick={() => handlePageChange('About')}
@@ -22,7 +12,7 @@ function Navigation({ currentPage, handlePageChange }) {
           About Me
         </a>
       </li>
-      <li className="nav-item" style={styles.navItem}>
+      <li className="nav-item">
         <a
           href="#Portfolio"
           onClick={() => handlePageChange('Portfolio')}
@@ -33,7 +23,7 @@ function Navigation({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item" style={styles.navItem}>
+      <li className="nav-item">
         <a
           href="#Contact"
           onClick={() => handlePageChange('Contact')}
@@ -42,7 +32,7 @@ function Navigation({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
-      <li className="nav-item" style={styles.navItem}>
+      <li className="nav-item">
         <a
           href="#Resume"
           onClick={() => handlePageChange('Resume')}

@@ -1,18 +1,22 @@
-const styles = {
-  resume: {
-    display: 'flex',
-    flexGrow: '1',
-  },
-};
+import { useState } from 'react';
+import resume from '../assets/placeholder-resume.pdf';
 
 export default function Resume() {
+
+  const [showPdf, setShowPdf] = useState(false)
+  const handleClick = () => {
+    setShowPdf(!showPdf)
+  }
+  
   return (
-  <div style={styles.resume}>
+  <div>
     <h1>Résumé / CV</h1>
-    <a href='./assets/resume-placeholder.pdf' target='_blank'>
-      <button>Download</button>
+    <a href='#resume.pdf' onClick={handleClick}>
+      <button>Click here to toggle downloadable resume</button>
     </a>
     <div>
+      {!showPdf&&(
+      <div>
       <h2>Proficiencies</h2>
       <ul>
         <li>HTML</li>
@@ -31,6 +35,13 @@ export default function Resume() {
         <li>React</li>
         <li>MERN</li>
       </ul>
+    </div>
+      )}
+      {showPdf&&(
+        <div className='w-100'>
+          <object width='100%' height='600' data={resume} type='application/pdf' />
+          </div>
+      )}
     </div>
     </div>
   );

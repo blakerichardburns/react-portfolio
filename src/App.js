@@ -26,20 +26,10 @@ function App() {
     }
   };
 
-  const styles = {
-    App: {
-      display: 'flex',
-      flexDirection: 'column',
-      height: '100vh',
-      background: '#fcf7f8',
-      color: '#5b616a',
-    },
-  };
-
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div style={styles.App}>
+    <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />
