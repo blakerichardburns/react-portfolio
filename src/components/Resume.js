@@ -12,7 +12,7 @@ export default function Resume() {
   <div>
     <h1>Résumé / CV</h1>
     <a href='#resume.pdf' onClick={handleClick}>
-      <button>Click here to toggle downloadable resume</button>
+      <button>Click Here to view Résumé</button>
     </a>
     <div>
       {!showPdf&&(
@@ -39,7 +39,7 @@ export default function Resume() {
       )}
       {showPdf&&(
         <div className='w-100'>
-          <object width='100%' height='600' data={resume} type='application/pdf' />
+          <object width='100%' height='600' data={resume} type='application/pdf'>Résumé / CV</object>
           </div>
       )}
     </div>
