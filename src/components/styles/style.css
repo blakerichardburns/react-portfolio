@@ -234,8 +234,8 @@ header h1 {
     color: #fcf7f8;
 }
 
-.contact button:active,
-.resume button:active {
+.contact button#submit-button:active,
+.resume button#resume-button:active {
     background-color: #fcf7f8;
     font-weight: bold;
     border-style: solid;
