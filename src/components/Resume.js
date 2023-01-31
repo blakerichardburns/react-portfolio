@@ -9,15 +9,18 @@ export default function Resume() {
   }
   
   return (
-  <div>
-    <h1>Résumé / CV</h1>
-    <a href='#resume.pdf' onClick={handleClick}>
-      <button>Click Here to view Résumé</button>
-    </a>
-    <div>
-      {!showPdf&&(
+  <div class="resume-page">
+    <div class="resume">
+      <h1>Résumé / CV</h1>
+      <a href='#resume.pdf' onClick={handleClick}>
+        <button>Click Here to toggle Résumé view</button>
+      </a>
+      </div>
       <div>
-      <h2>Proficiencies</h2>
+      </div>
+      {!showPdf&&(
+      <div class="proficiencies">
+      <h2>Proficiencies:</h2>
       <ul>
         <li>HTML</li>
         <li>Cascading Style Sheets</li>
@@ -35,14 +38,13 @@ export default function Resume() {
         <li>React</li>
         <li>MERN</li>
       </ul>
-    </div>
+      </div>
       )}
       {showPdf&&(
         <div className='w-100'>
           <object width='100%' height='600' data={resume} type='application/pdf'>Résumé / CV</object>
           </div>
       )}
-    </div>
-    </div>
+  </div>
   );
 }

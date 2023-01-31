@@ -69,14 +69,69 @@ header h1 {
     --bs-nav-tabs-link-active-border-color: #fcf7f8;
 }
 
-.project {
+.portfolio {
+    margin: 1rem;
+    padding: 1rem;
+}
 
+.project {
+    border-style: solid;
+    border-color: #ced3dc;
+    border-radius: 10%;
+    padding: 3rem;
+}
+
+.project h2 {
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+
+#project-name {
+    color: #275dad;
+    font-weight: bold;
 }
 
 .project-screenshot {
     max-width: 50%;
     height: auto;
+    border-style: solid;
+    border-color: #275dad;
 }
+
+.project p {
+    text-align: left;
+    text-indent: 2.5rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+}
+
+.project button {
+    padding: 0.5rem;
+    background: #ced3dc;
+    font-size: 1.5rem;
+    border-radius: 25%;
+    border-color: #5b616a;
+}
+
+.project a:link {
+    color: #275dad;
+    text-decoration: none;
+}
+
+.project a:visited {
+    color: #275dad;
+    text-decoration: none;
+}
+
+.project a:hover {
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.project a:active {
+    color: #5b616a;
+    text-decoration: none;
+}   
 
 .about-me {
     display: flex;
@@ -95,7 +150,7 @@ header h1 {
 .about-me img {
     max-width: 30%;
     height: auto;
-    margin-left: 5rem;
+    margin-left: 12rem;
     border-radius: 5%;
 }
 
@@ -117,35 +172,142 @@ header h1 {
     border-radius: 5%;
 }
 
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.contact h1 {
+    font-size: 3rem;
+    padding: 5rem;
+}
+
+.contact form {
+    padding: 2rem;
+    font-size: 2rem;
+    border-style: solid;
+    border-color: #ced3dc;
+    width: 50%;
+}
+
+.contact label{
+    padding: 1rem;
+}
+
+.contact input,
+.contact textarea {
+    background-color: #ced3dc;
+    color: #275dad;
+    font-size: 1.5rem;
+}
+
+.contact input::placeholder,
+.contact textarea::placeholder {
+    background-color: #ced3dc;
+    color: #5b616a;
+    font-size: 1rem;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    background-color: #ced3dc;
+    color: #275dad;
+}
+
+.contact button,
+.resume button {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background-color: #275dad;
+    border-style: solid;
+    border-color: #ced3dc;
+    float: right;
+    color: #fcf7f8;
+}
+
+.contact button:active,
+.resume button:active {
+    background-color: #fcf7f8;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #275dad;
+    color: #275dad;
+}
+
+.contact button:hover,
+.resume button:hover {
+    background-color: #5b616a;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #275dad;
+}
+
+.resume-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5rem;
+}
+
+.resume h1 {
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+.proficiencies {
+    padding: 2.5rem;
+    font-size: 1.25rem;
+    border-style: solid;
+    border-color: #ced3dc;
+    border-radius: 10%;
+}
+
 footer {
     position: absolute;
     right: 0;
     left: 0;
     bottom: 0;
-    padding: 0.5rem;
+    padding: 0.25rem;
     background: #ced3dc;
-    color: #5b616a;
+    color: #fcf7f8;
+    border-top-style: solid;
+    border-top-color: #5b616a;
 }
 
 footer ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 0.25rem;
     list-style: none;
 }
 
 footer li {
-    padding: 0.5rem;
+    padding: 0.25rem;
     font-size: 2rem;
+    background: #275dad;
+    border-radius: 15%;
 }
 
 footer a:link {
-    color: #275dad;
+    color: #fcf7f8;
     text-decoration: none;
 }
 
 footer a:visited {
-    color: #275dad;
+    color: #fcf7f8;
     text-decoration: none;
 }
 

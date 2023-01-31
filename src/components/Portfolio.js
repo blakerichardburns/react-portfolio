@@ -47,7 +47,7 @@ export default function Portfolio() {
   ];
   return (
     <div>
-      <div className="d-flex flex-wrap project" >
+      <div className="d-flex flex-wrap portfolio" >
         {projects.map((project) => (
           <Project project={project} />
         ))}
