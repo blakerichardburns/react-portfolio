@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import resume from '../assets/placeholder-resume.pdf';
+import resume from '../assets/resume.pdf';
 
 export default function Resume() {
 
