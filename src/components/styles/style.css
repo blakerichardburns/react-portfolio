@@ -107,19 +107,20 @@ header h1 {
 
 .project button {
     padding: 0.5rem;
-    background: #ced3dc;
+    background: #275dad;
+    color: #ced3dc;
     font-size: 1.5rem;
     border-radius: 25%;
-    border-color: #5b616a;
+    border-color: #ced3dc;
 }
 
 .project a:link {
-    color: #275dad;
+    color: #ced3dc;
     text-decoration: none;
 }
 
 .project a:visited {
-    color: #275dad;
+    color: #ced3dc;
     text-decoration: none;
 }
 
@@ -135,7 +136,6 @@ header h1 {
 
 .about-me {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     padding: 8rem;
 }
@@ -143,7 +143,7 @@ header h1 {
 .bio-head {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
     width: 40%;
 }
 
@@ -170,6 +170,12 @@ header h1 {
     border-style: solid;
     border-color: #ced3dc;
     border-radius: 5%;
+}
+
+@media screen and (max-width: 1275px) {
+    .about-me {
+      flex-direction: column;
+    }
 }
 
 .contact {
@@ -299,6 +305,8 @@ footer li {
     font-size: 2rem;
     background: #275dad;
     border-radius: 15%;
+    border-color: #5b616a;
+    border-style: solid;
 }
 
 footer a:link {
@@ -317,6 +325,7 @@ footer a:hover {
 }
 
 footer a:active {
-    color: #5b616a;
+    color: #ced3dc;
+    font-weight: bold;
     text-decoration: none;
 }
