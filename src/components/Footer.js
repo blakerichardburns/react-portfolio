@@ -3,7 +3,11 @@ export default function Footer() {
     <footer>
       <ul>
         <li>
-          <a href="https://github.com/blakerichardburns" target="_blank">
+          <a
+            href="https://github.com/blakerichardburns"
+            target="_blank"
+            rel="noreferrer"
+          >
             Github
           </a>
         </li>
@@ -11,6 +15,7 @@ export default function Footer() {
           <a
             href="https://ca.linkedin.com/company/rentplaceholder"
             target="_blank"
+            rel="noreferrer"
           >
             LinkedIn
           </a>
@@ -19,6 +24,7 @@ export default function Footer() {
           <a
             href="https://stackoverflow.com/search?q=placeholder&s=37ba3305-c253-47f1-a7ad-1156e4e8453f"
             target="_blank"
+            rel="noreferrer"
           >
             Other Site
           </a>
