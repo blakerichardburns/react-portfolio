@@ -251,6 +251,20 @@ header h1 {
     border-color: #275dad;
 }
 
+#form-error {
+    position: relative;
+    left: 2.5rem;
+    width:auto;
+    height:auto;
+    padding: 1rem;
+    background-color: #841617;
+    opacity: 85%;
+    color: #FDF9D8;
+    font-size: 2rem;
+    border-style: solid;
+    border-color: black;
+}
+
 .resume-page {
     display: flex;
     flex-direction: row;

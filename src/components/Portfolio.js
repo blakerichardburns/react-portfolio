@@ -38,7 +38,7 @@ export default function Portfolio() {
       name: 'Note Taker',
       description:
         "Note-taking app designed to test the developer's ability to implement back-end code to a pre-existing front-end codebase, and show off their Express.js and Heroku deployment skills.",
-      deployedLink: 'https://note-taker-code-refactor.herokuapp.com/',
+      deployedLink: 'https://bburns-note-taker.herokuapp.com/',
       repository: 'https://github.com/blakerichardburns/note-taker',
       image: 'note-taker-screenshot.JPG',
     },
