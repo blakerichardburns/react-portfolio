@@ -1,7 +1,7 @@
 # React Portfolio
 Module 20 Challenge: React
 
-![Alt text](./public/assets/screenshot.JPG "Screenshot")
+![Alt text](./src/assets/screenshot.JPG "Screenshot")
 
 ## Live Link
 https://blakerichardburns.github.io/react-portfolio
