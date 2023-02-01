@@ -10,7 +10,7 @@ https://blakerichardburns.github.io/react-portfolio
 https://github.com/blakerichardburns/react-portfolio
 
 ## Description
-
+Built specifically to test the developer's abilities with React, this portfolio also shows off the progression and development of his skills in web development, by linking various other projects completed for his coding bootcamp.
 
   ## Table of Contents
   * [Installation Instructions](#installation-instructions)
@@ -18,7 +18,7 @@ https://github.com/blakerichardburns/react-portfolio
   * [Questions](#questions)
 
   ## Installation Instructions
-
+  React.js
 
   ## Usage Information
   N/A
