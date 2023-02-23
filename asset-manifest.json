@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.ec905955.css",
+    "main.js": "/react-portfolio/static/js/main.510eca61.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/note-taker-screenshot.JPG": "/react-portfolio/static/media/note-taker-screenshot.4feb66a916ce753487a7.JPG",
+    "static/media/tech-blog-screenshot.JPG": "/react-portfolio/static/media/tech-blog-screenshot.e8429e22c8f3550d379c.JPG",
+    "static/media/marvel-reddit-finder-screenshot.JPG": "/react-portfolio/static/media/marvel-reddit-finder-screenshot.154fcf50ae7d7ec8074b.JPG",
+    "static/media/screenshot.JPG": "/react-portfolio/static/media/screenshot.bcd1c2e0e8ef2b80bbd7.JPG",
+    "static/media/tuff-lead-screenshot.JPG": "/react-portfolio/static/media/tuff-lead-screenshot.58911c78f7d794c63ae3.JPG",
+    "static/media/weather-dashboard-screenshot.JPG": "/react-portfolio/static/media/weather-dashboard-screenshot.8337976f396e5bc26576.JPG",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.8776a879e22bc1518d9f.pdf",
+    "static/media/subscription-tracks-screenshot.JPG": "/react-portfolio/static/media/subscription-tracks-screenshot.34ffad5fd1dbc70069fc.JPG",
+    "static/media/me-screenshot.jpeg": "/react-portfolio/static/media/me-screenshot.ad7a35956ef776ae0655.jpeg",
+    "index.html": "/react-portfolio/index.html",
+    "main.ec905955.css.map": "/react-portfolio/static/css/main.ec905955.css.map",
+    "main.510eca61.js.map": "/react-portfolio/static/js/main.510eca61.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec905955.css",
+    "static/js/main.510eca61.js"
+  ]
+}
