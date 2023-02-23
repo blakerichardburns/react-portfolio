@@ -24,7 +24,7 @@ export default function Portfolio() {
         'Built specifically to test the developer\'s abilities with React, this portfolio also shows off the progression and development of his skills in web development, by linking various other projects completed for his coding bootcamp.',
       deployedLink: 'https://blakerichardburns.github.io/workday-scheduler/',
       repository: 'https://github.com/blakerichardburns/workday-scheduler',
-      image: 'react-portfolio-screenshot.JPG',
+      image: 'tuff-lead-screenshot.JPG',
     },
     {
       name: 'Subscription Tracks',
