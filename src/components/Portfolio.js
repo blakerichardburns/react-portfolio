@@ -19,11 +19,19 @@ export default function Portfolio() {
       image: 'weather-dashboard-screenshot.JPG',
     },
     {
+      name: 'React Portfolio',
+      description:
+        'Built specifically to test the developer\'s abilities with React, this portfolio also shows off the progression and development of his skills in web development, by linking various other projects completed for his coding bootcamp.',
+      deployedLink: 'https://blakerichardburns.github.io/workday-scheduler/',
+      repository: 'https://github.com/blakerichardburns/workday-scheduler',
+      image: 'react-portfolio-screenshot.JPG',
+    },
+    {
       name: 'Subscription Tracks',
       description:
         'Website for managing online subscriptions. Built as part of a group project to test back end skills.',
-      deployedLink: 'https://subscription-tracks.herokuapp.com/',
-      repository: 'https://github.com/TerryBoufis/Subscription-Tracks',
+      deployedLink: 'https://blakerichardburns.github.io/react-portfolio',
+      repository: 'https://github.com/blakerichardburns/react-portfolio',
       image: 'subscription-tracks-screenshot.JPG',
     },
     {
@@ -41,14 +49,6 @@ export default function Portfolio() {
       deployedLink: 'https://bburns-note-taker.herokuapp.com/',
       repository: 'https://github.com/blakerichardburns/note-taker',
       image: 'note-taker-screenshot.JPG',
-    },
-    {
-      name: 'Workday Scheduler',
-      description:
-        'Code refactor to add interactive functionality to professional day planner utilizating Third Party APIs and saving to local storage.',
-      deployedLink: 'https://blakerichardburns.github.io/workday-scheduler/',
-      repository: 'https://github.com/blakerichardburns/workday-scheduler',
-      image: 'workday-scheduler-screenshot.JPG',
     },
   ];
   return (
